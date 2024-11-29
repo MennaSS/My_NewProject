@@ -18,3 +18,9 @@ jobs:
 
       - name: 'Testing Printing'
         run: echo Menna
+
+
+      - uses: actions/checkout@v3
+
+      - name: 'After'
+        run: ls
