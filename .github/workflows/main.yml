@@ -30,8 +30,8 @@ jobs:
 
       
       - name: "Building docker image"
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/mennasaber .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/menna_saber_said_ahmed .
 
       - name: "Pushing to Docker hub"
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/mennasaber
-        
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/menna_saber_said_ahmed
+
